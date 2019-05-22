@@ -2,8 +2,8 @@
    <div>
         <component :is="active"></component>
         <!-- <VueButton type="negative" @click="activate">Show Component</VueButton> -->
-         <button @click="emitLoad">Show</button>
-        <button @click="offLoad">Hide</button>
+         <!-- <button @click="emitLoad">Show</button>
+        <button @click="offLoad">Hide</button> -->
   </div>
 </template>
 <script>
@@ -16,6 +16,7 @@ import VueButton from '../generic/VueButton'
 import VueTagsT from './VueTagsT'
 import VuePanelT from './VuePanelT'
 import VueLoaderT from './VueLoaderT'
+import VueGridTest from './VueGridTest'
 export default {
     name: 'LandingPage',
     props: {
@@ -26,7 +27,7 @@ export default {
     },
     data() {
         return {
-            active: VueLoaderT
+            active: VueGridTest
         }
     },
     components: {
@@ -38,7 +39,8 @@ export default {
        VueButton,
        VueTagsT,
        VuePanelT,
-       VueLoaderT
+       VueLoaderT,
+       VueGridTest
     },
     computed: {
 
