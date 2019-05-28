@@ -17,6 +17,7 @@ import VueTagsT from './VueTagsT'
 import VuePanelT from './VuePanelT'
 import VueLoaderT from './VueLoaderT'
 import VueGridTest from './VueGridTest'
+import VueSelectT from './VueSelectT'
 export default {
     name: 'LandingPage',
     props: {
@@ -27,7 +28,7 @@ export default {
     },
     data() {
         return {
-            active: VueGridTest
+            active: VueSelectT
         }
     },
     components: {
@@ -40,7 +41,8 @@ export default {
        VueTagsT,
        VuePanelT,
        VueLoaderT,
-       VueGridTest
+       VueGridTest,
+       VueSelectT
     },
     computed: {
 
