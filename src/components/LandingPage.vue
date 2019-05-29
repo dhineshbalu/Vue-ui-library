@@ -18,6 +18,7 @@ import VuePanelT from './VuePanelT'
 import VueLoaderT from './VueLoaderT'
 import VueGridTest from './VueGridTest'
 import VueSelectT from './VueSelectT'
+import VueCarosalT from './VueCarosalT'
 export default {
     name: 'LandingPage',
     props: {
@@ -28,7 +29,7 @@ export default {
     },
     data() {
         return {
-            active: VueSelectT
+            active: VueCarosalT
         }
     },
     components: {
