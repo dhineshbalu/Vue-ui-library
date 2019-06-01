@@ -1,6 +1,23 @@
 <template>
    <div>
         <component :is="active"></component>
+        <!-- <h2>
+            The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.
+        </h2> -->
         <!-- <VueButton type="negative" @click="activate">Show Component</VueButton> -->
          <!-- <button @click="emitLoad">Show</button>
         <button @click="offLoad">Hide</button> -->
@@ -19,6 +36,10 @@ import VueLoaderT from './VueLoaderT'
 import VueGridTest from './VueGridTest'
 import VueSelectT from './VueSelectT'
 import VueCarosalT from './VueCarosalT'
+import VueMessagingT from './VueMessagingT'
+import VueSwitchT from './VueSwitchT'
+import VueCheckBoxT from './VueCheckBoxT'
+import VueRadioT from './VueRadioT'
 export default {
     name: 'LandingPage',
     props: {
@@ -29,7 +50,7 @@ export default {
     },
     data() {
         return {
-            active: VueCarosalT
+            active: VueRadioT
         }
     },
     components: {
@@ -43,7 +64,11 @@ export default {
        VuePanelT,
        VueLoaderT,
        VueGridTest,
-       VueSelectT
+       VueSelectT,
+       VueMessagingT,
+       VueSwitchT,
+       VueCheckBoxT,
+       VueRadioT
     },
     computed: {
 

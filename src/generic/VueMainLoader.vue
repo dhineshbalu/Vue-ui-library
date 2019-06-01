@@ -23,7 +23,6 @@ export default {
     },
     mounted() {
         this.$events.on('showLoad',(val)=> {
-            console.log("loading")
             this.show = val
         })
     }

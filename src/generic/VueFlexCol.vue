@@ -9,13 +9,18 @@ export default {
     props: {
      span: {
          type: String
+     },
+     bgColor: {
+         type: String
      }
     },
     computed: {
       styleCustomCol() {
           return {
               flex: this.span ? this.span : '1',
-              flexWrap: 'wrap'
+              flexWrap: 'wrap',
+              backgroundColor: this.bgColor,
+              padding: '20px'
           }
       }
     },

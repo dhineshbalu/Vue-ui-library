@@ -4,7 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueEvents from 'vue-events'
-// import './generic/genericDeclare'
+import './generic/genericDeclare'
+
 Vue.use(VueEvents)
 Vue.config.productionTip = false
 
