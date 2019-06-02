@@ -9,6 +9,8 @@ import VueCheckBox from './VueCheckBox'
 import VueCheckBoxes from './VueCheckBoxes'
 import VueRadio from './VueRadio'
 import VueRadios from './VueRadios'
+import VuePaginator from './VuePaginator'
+import VueDropDown from './VueDropDown'
 
 
 Vue.component('VueSelect',VueSelect)
@@ -21,3 +23,5 @@ Vue.component('VueCheckBox',VueCheckBox)
 Vue.component('VueCheckBoxes',VueCheckBoxes)
 Vue.component('VueRadio',VueRadio)
 Vue.component('VueRadios',VueRadios)
+Vue.component('VuePaginator',VuePaginator)
+Vue.component('VueDropDown',VueDropDown)
