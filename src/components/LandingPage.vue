@@ -40,6 +40,8 @@ import VueMessagingT from './VueMessagingT'
 import VueSwitchT from './VueSwitchT'
 import VueCheckBoxT from './VueCheckBoxT'
 import VueRadioT from './VueRadioT'
+import Table from './Table.vue'
+import VueDropDownT from './VueDropDownT'
 export default {
     name: 'LandingPage',
     props: {
@@ -50,7 +52,7 @@ export default {
     },
     data() {
         return {
-            active: VueRadioT
+            active: VueDropDownT
         }
     },
     components: {
@@ -68,7 +70,9 @@ export default {
        VueMessagingT,
        VueSwitchT,
        VueCheckBoxT,
-       VueRadioT
+       VueRadioT,
+       Table,
+       VueDropDownT
     },
     computed: {
 
